@@ -1,0 +1,26 @@
+/*
+* @Author: 18634746074
+* @Date:   2018-08-17 01:58:26
+* @Last Modified by:   18634746074
+* @Last Modified time: 2018-08-17 09:31:03
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.box{
+	width: 7.5rem;
+	height: 13.34rem;
+	background-image: url('../img/images/zhiwen_02.png');
+	background-position: center;
+	background-size: cover;
+}

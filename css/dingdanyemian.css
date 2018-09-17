@@ -1,0 +1,740 @@
+/*
+* @Author: 18634746074
+* @Date:   2018-08-18 16:07:25
+* @Last Modified by:   18634746074
+* @Last Modified time: 2018-08-19 09:56:51
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 0.97rem;
+	background-color: #0ecf98;
+	padding: 0 0.24rem;
+	position: relative;
+	position: fixed;
+	top: 0;
+	left:0;
+	z-index: 888;
+}
+header h5{
+	color: #ffffff;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.97rem;
+}
+header h6{
+	color: #82e5c5;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.97rem;
+	position: absolute;
+	top: 0.18rem;
+	left: 1.95rem;
+}
+
+.top{
+	width: 100%;
+	height: 0.92rem;
+	padding: 0 0.24rem;
+	margin-top: 0.24rem;
+	
+}
+.top h5{
+	color: #16cd97;
+	font-size: 0.3rem;
+	text-align: left;
+	
+}
+.top h6{
+	color: #10ca98;
+	font-size: 0.3rem;
+	text-align: left;
+	
+}
+.then{
+	width: 100%;
+	height: 3.46rem;
+	padding: 0 0.24rem;
+	margin-top: 0.2rem;
+}
+.then .nk{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.then .nk .box1{
+	width: 2.11rem;
+	height: 100%;
+	margin-right: 0.23rem;
+	box-shadow: 0rem 0rem 0.2rem 0.01rem #0ecf98;
+	position: relative;
+}
+.then .nk .box1 img{
+	width: 100%;
+	height: 1.68rem;
+
+}
+.then .nk .box1 h5{
+	text-align: center;
+	color: #000000;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 1.9rem;
+	left: 0.5rem;
+}
+.then .nk .box1 h6{
+	text-align: center;
+	color: #565656;
+	font-size: 0.28rem;
+	position: absolute;
+	left: 0.25rem;
+	top: 2.35rem;
+}
+.then .nk .box1 h4{
+	text-align: center;
+	color: #fe9343;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 2.75rem;
+	left: 0.5rem;
+}
+.then .nk .box2{
+	width: 2.11rem;
+	height: 100%;
+	margin-right: 0.23rem;
+	box-shadow: 0rem 0rem 0.2rem 0.01rem #0ecf98;
+	position: relative;
+}
+.then .nk .box2 img{
+	width: 100%;
+	height: 1.68rem;
+	
+}
+.then .nk .box2 h5{
+	text-align: center;
+	color: #000000;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 1.9rem;
+	left: 0.5rem;
+}
+.then .nk .box2 h6{
+	text-align: center;
+	color: #565656;
+	font-size: 0.28rem;
+	position: absolute;
+	left: 0.25rem;
+	top: 2.35rem;
+}
+.then .nk .box2 h4{
+	text-align: center;
+	color: #fe9343;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 2.75rem;
+	left: 0.5rem;
+}
+.then .nk .box3{
+	width: 2.11rem;
+	height: 100%;
+	box-shadow: 0rem 0rem 0.2rem 0.01rem #0ecf98;
+	position: relative;
+
+	
+}
+.then .nk .box3 img{
+	width: 100%;
+	height: 1.68rem;
+	
+}
+.then .nk .box3 h5{
+	text-align: center;
+	color: #000000;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 1.9rem;
+	left: 0.5rem;
+}
+.then .nk .box3 h6{
+	text-align: center;
+	color: #565656;
+	font-size: 0.28rem;
+	position: absolute;
+	left: 0.25rem;
+	top: 2.35rem;
+}
+.then .nk .box3 h4{
+	text-align: center;
+	color: #fe9343;
+	font-size: 0.3rem;
+	position: absolute;
+	top: 2.75rem;
+	left: 0.5rem;
+}
+.bb{
+	width: 100%;
+	height: 0.92rem;
+	padding: 0 0.24rem;
+	margin-top: 0.24rem;
+	
+}
+.bb h5{
+	color: #16cd97;
+	font-size: 0.3rem;
+	text-align: left;
+	
+}
+.bb h6{
+	color: #10ca98;
+	font-size: 0.3rem;
+	text-align: left;
+	
+}
+.list{
+	width: 100%;
+	height: 3.06rem;
+	padding: 0 0.24rem;
+	margin-top: 0.4rem;
+}
+.list .content{
+	width: 7.02rem;
+	height: 3.06rem;
+	box-shadow: 0.04rem 0.03rem 0.04rem #91eed1;
+	display: flex;
+	align-self: flex-start;
+	border: 1px solid #96ead2;
+}
+.list .content .one{
+	width: 2.66rem;
+	height: 2.24rem;
+	background: yellow;
+	background-image: url('../img/images/jjj_03.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: 0.4rem;
+	margin-right: 0.1rem;
+}
+.list .content .two{
+	width: 4.36rem;
+	height: 3.06rem;
+}
+.list .content .two a{
+	color: #4c4c4c;
+}
+.list .content .two .section1{
+	width: 4.36rem;
+	height: 0.44rem;
+	margin-top: 0.38rem;
+	font-size: 0.36rem;
+	line-height: 0.44rem;
+	font-family: "苹方";
+}
+.list .content .two .section1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-right:-0.1rem;
+
+}
+.list .content .two .section2{
+	width: 4.36rem;
+	height: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	line-height: 0.35rem;
+	color: #a2a2a2;
+}
+.list .content .two .section2 .min{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list .content .two .section3{
+	width: 4.36rem;
+	height: 0.3rem;
+	font-size: 0.2rem;
+	color: #a2a2a2;
+}
+.list .content .two .section3 .min2{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list .content .two .section4{
+	width: 4.36rem;
+	height: 0.41rem;
+	position: relative;
+}
+.list .content .two .section4 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list .content .two .section4 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	right: 0;
+
+}
+.list .content .two .section5{
+	width: 4.36rem;
+	height: 0.43rem;
+	position: relative;
+}
+.list .content .two .section5 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list .content .two .section5 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left: 0.1rem;
+
+}
+.list .content .two .section6{
+	width: 4.36rem;
+	height: 0.34rem;
+	background-color: white;
+	position: relative;
+}
+.list .content .two .section6 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #f4353b;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #f4353b;
+	float: left;
+}
+.list .content .two .section6 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left:0.5rem;
+
+}
+.list1{
+	width: 100%;
+	height: 3.06rem;
+	padding: 0 0.24rem;
+	margin-top: 0.6rem;
+}
+.list1 .content{
+	width: 7.02rem;
+	height: 3.06rem;
+	box-shadow: 0.04rem 0.03rem 0.04rem #91eed1;
+	display: flex;
+	align-self: flex-start;
+	border: 1px solid #96ead2;
+}
+.list1 .content .one{
+	width: 2.66rem;
+	height: 2.24rem;
+	background: yellow;
+	background-image: url('../img/images/lamian_03.png');
+	background-size: cover;
+	background-position: center;
+	margin-top: 0.4rem;
+	margin-right: 0.1rem;
+}
+.list1 .content .two{
+	width: 4.36rem;
+	height: 3.06rem;
+}
+.list1 .content .two .section1{
+	width: 4.36rem;
+	height: 0.44rem;
+	margin-top: 0.38rem;
+	font-size: 0.36rem;
+	line-height: 0.44rem;
+	font-family: "苹方";
+}
+.list1 .content .two  a{
+	color: #313131;
+}
+.list1 .content .two .section1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-right:-0.1rem;
+
+}
+.list1 .content .two .section2{
+	width: 4.36rem;
+	height: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	line-height: 0.35rem;
+	color: #a2a2a2;
+}
+.list1 .content .two .section2 .min{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list1 .content .two .section3{
+	width: 4.36rem;
+	height: 0.3rem;
+	font-size: 0.2rem;
+	color: #a2a2a2;
+}
+.list1 .content .two .section3 .min2{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list1 .content .two .section4{
+	width: 4.36rem;
+	height: 0.41rem;
+	position: relative;
+}
+.list1 .content .two .section4 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list1 .content .two .section4 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	right: 0;
+
+}
+.list1 .content .two .section5{
+	width: 4.36rem;
+	height: 0.43rem;
+	position: relative;
+}
+.list1 .content .two .section5 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list1 .content .two .section5 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left: 0.1rem;
+
+}
+.list1 .content .two .section6{
+	width: 4.36rem;
+	height: 0.34rem;
+	background-color: white;
+	position: relative;
+}
+.list1 .content .two .section6 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #f4353b;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #f4353b;
+	float: left;
+}
+.list1 .content .two .section6 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left:0.5rem;
+
+}
+.list2{
+	width: 100%;
+	height: 3.06rem;
+	padding: 0 0.24rem;
+	margin-top: 0.6rem;
+}
+.list2 .content{
+	width: 7.02rem;
+	height: 3.06rem;
+	box-shadow: 0.04rem 0.03rem 0.04rem #91eed1;
+	display: flex;
+	align-self: flex-start;
+	border: 1px solid #96ead2;
+}
+.list2 .content .one{
+	width: 2.66rem;
+	height: 2.24rem;
+	background: yellow;
+	background-image: url('../img/images/ji_06.png');
+	background-size: cover;
+	background-position: center;
+	margin-right: 0.1rem;
+	margin-top: 0.4rem;
+}
+.list2 .content .two{
+	width: 4.36rem;
+	height: 3.06rem;
+}
+.list2 .content .two .section1{
+	width: 4.36rem;
+	height: 0.44rem;
+	margin-top: 0.38rem;
+	font-size: 0.36rem;
+	line-height: 0.44rem;
+	font-family: "苹方";
+}
+.list2 .content .two .section1 img{
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-right:-0.1rem;
+
+}
+.list2 .content .two .section2{
+	width: 4.36rem;
+	height: 0.35rem;
+	font-family: "苹方";
+	font-size: 0.2rem;
+	line-height: 0.35rem;
+	color: #a2a2a2;
+}
+.list2 .content .two .section2 .min{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list2 .content .two .section3{
+	width: 4.36rem;
+	height: 0.3rem;
+	font-size: 0.2rem;
+	color: #a2a2a2;
+}
+.list2 .content .two .section3 .min2{
+	width: 0.7rem;
+	height: 0.35rem;
+	float: right;
+	color: #0bc70e;
+	text-align: center;
+	line-height: 0.35rem;
+	font-size: 0.2rem;
+}
+.list2 .content .two .section4{
+	width: 4.36rem;
+	height: 0.41rem;
+	position: relative;
+}
+.list2 .content .two .section4 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list2 .content .two .section4 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	right: 0;
+
+}
+.list2 .content .two .section5{
+	width: 4.36rem;
+	height: 0.43rem;
+	position: relative;
+}
+.list2 .content .two .section5 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #14d294;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #9a9899;
+	float: left;
+}
+.list2 .content .two .section5 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left: 0.1rem;
+
+}
+.list2 .content .two .section6{
+	width: 4.36rem;
+	height: 0.34rem;
+	background-color: white;
+	position: relative;
+}
+.list2 .content .two .section6 .box{
+	width: 0.9rem;
+	height: 0.28rem;
+	border: 2px solid #f4353b;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.04rem;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.28rem;
+	color: #f4353b;
+	float: left;
+}
+.list2 .content .two .section6 .box2{
+	width: 3.5rem;
+	height: 0.4rem;
+	font-size: 0.12rem;
+	text-align: center;
+	color: #9a9899;
+	line-height: 0.4rem;
+	float: right;
+	position: absolute;
+	left:0.5rem;
+
+}
+footer{
+	width: 100%;
+	height: 1.13rem;
+	padding: 0 0.24rem;
+	position: fixed;
+	bottom: 0;
+	background-color: white;
+	
+}
+footer ul li{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 1.2rem;
+	float: left;
+	margin-top: 0.26rem;
+	position: relative;
+
+}
+footer ul li:nth-child(4){
+	margin-right: 0rem;
+}
+footer ul li:nth-child(1){
+	margin-left: 0.55rem;
+}
+footer ul li img{
+	width: 0.4rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.05rem;
+}
+body{
+	margin-top: 0.97rem;
+	margin-bottom: 1.13rem;
+}

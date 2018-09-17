@@ -1,0 +1,289 @@
+/*
+* @Author: 18634746074
+* @Date:   2018-08-15 15:24:01
+* @Last Modified by:   18634746074
+* @Last Modified time: 2018-08-17 10:48:58
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: "苹方";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+.back{
+	width: 100%;
+	height: 13.34rem;
+	background-image: url('../img/zc.jpg');
+	background-position: center;
+	background-size: cover;
+
+}
+.back .cover{
+	width: 100%;
+	height: 13.34rem;
+	background-color: rgba(9, 78, 57, 0.7);
+	padding: 0 1.05rem;
+	position: relative;
+}
+.back .cover .box{
+	width: 5.4rem;
+	height: 2.16rem;
+	background: #ffffff;
+	border-radius: 0.15rem;
+	padding: 0.19rem 0;
+	position: absolute;
+	top: 5.83rem;
+}
+.back .cover .box .box1{
+	width: 100%;
+	height: 0.9rem;
+}
+.back .cover .box .box1 .text{
+	width: 100%;
+	height: 0.3rem;
+	padding-left: 0.36rem;
+	color: #ff7d00;
+	font-size: 0.22rem;
+	text-align: left;
+	line-height: 0.3rem;
+}
+.back .cover .box .box1 .pic{
+	width: 100%;
+	height: 0.65rem;
+
+	padding-left: 0.3rem;
+	padding-right: 0.2rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.back .cover .box .box1 .pic .yuan{
+	width: 0.45rem;
+	height: 0.45rem;
+	background-color: #ff7d00;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+	background-image: url('../img/xiaorenren.png');
+	background-position: center;
+	background-size: contain;
+}
+.back .cover .box .box1 .pic h5{
+	color: #ff7d00;
+	font-size: 0.22rem;
+	text-align: right;
+	line-height: 0.65rem;
+
+}
+.back .cover .box .box1 .pic .line{
+	width: 2.1rem;
+	height: 0.01rem;
+	background-color: #a9a9a9;
+	margin-top: 0.45rem;
+	position: absolute;
+	left: 0.85rem;
+}
+.back .cover .box .box1 .pic img{
+	width: 0.4rem;
+	height: 0.35rem;
+	position: absolute;
+	top: 0.16rem;
+	left: 2.65rem;
+}
+.back .cover .box .box2{
+	width: 100%;
+	height: 0.9rem;
+}
+.back .cover .box .box2 .text{
+	width: 100%;
+	height: 0.3rem;
+	padding-left: 0.36rem;
+	color: #ff7d00;
+	font-size: 0.2rem;
+	text-align: left;
+	line-height: 0.3rem;
+}
+.back .cover .box .box2 .pic{
+	width: 100%;
+	height: 0.65rem;
+	padding-left: 0.3rem;
+	padding-right: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+.back .cover .box .box2 .pic .yuan{
+	width: 0.45rem;
+	height: 0.45rem;
+	background-color: #ff7d00;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+	background-image: url('../img/mima.png');
+	background-position: center;
+	background-size: contain;
+}
+.back .cover .box .box2 .pic .line{
+	width: 2.1rem;
+	height: 0.01rem;
+	background-color: #a9a9a9;
+	margin-top: 0.45rem;
+	position: absolute;
+	left: 0.85rem;
+}
+.back .cover .box .box2 .pic img{
+	width: 0.3rem;
+	height: 0.25rem;
+	position: absolute;
+	top: 0.15rem;
+	left: 2.65rem;
+}
+.back .cover .box .box2 .pic h5{
+	color: #ff7d00;
+	font-size: 0.22rem;
+	text-align: right;
+	line-height: 0.65rem;
+
+}
+.back .cover .black{
+	width: 3.5rem;
+	height: 0.78rem;
+	background-color: #ffffff;
+	position: absolute;
+    bottom: 3.52rem;
+    left: 2rem;
+    border-radius: 0.4rem;
+    color: #ff7f02;
+    font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.8rem;
+
+}
+.back .cover .orange{
+	width: 1.72rem;
+	height: 0.56rem;
+	background-color: #f08012;
+	 color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.56rem;
+    position: absolute;
+     border-radius: 0.3rem;
+     left: 5.52rem;
+     top: 0.74rem;
+
+}
+.back .cover .tx{
+	width: 1.78rem;
+	height: 1.78rem;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	left: 2.86rem;
+	top: 2.86rem;
+	background-image: url('../img/tx.jpg');
+	background-position: -0.8rem center ;
+	background-size: cover;
+
+}
+.back .cover .qq{
+	width: 0.82rem;
+	height: 0.82rem;
+	position: absolute;
+	left: 0.98rem;
+	bottom: 1.1rem;
+
+}
+.back .cover .weixin{
+	width: 0.82rem;
+	height: 0.82rem;
+	position: absolute;
+	left: 3.4rem;
+	bottom: 1.1rem;
+	
+}
+.back .cover .weibo{
+	width: 0.82rem;
+	height: 0.82rem;
+	position: absolute;
+	right: 0.98rem;
+	bottom: 1.1rem;
+	
+}
+.back .cover  p{
+	color: #ff8400;
+	font-size: 0.3rem;
+	position: absolute;
+	text-align: center;
+	bottom: 2.74rem;
+	left: 2.55rem;
+
+}
+.back .cover h6{
+	color: #678e62;
+	font-size: 0.3rem;
+	position: absolute;
+	bottom: 2.48rem;
+	left: 1.3rem;
+}
+.back .cover i{
+	color: #ff8400;
+	font-size: 0.38rem;
+	position: absolute;
+	font-weight: bold;
+	top: 5.06rem;
+	left: 3.02rem;
+	
+}
+.back .cover .wenhao{
+	width: 0.45rem;
+	height: 0.45rem;
+	background-color: #ff7d00;
+	border-radius: 50%;
+	color: white;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.45rem;
+	position: absolute;
+	top: 8.2rem;
+	left: 1.35rem;
+
+}
+.back .cover h1{
+	color: #ff7d00;
+	font-size: 0.22rem;
+	position: absolute;
+	top: 8.3rem;
+	left: 1.9rem;
+}
+.back .cover .box .box2 .pic input{
+	width: 2.1rem;
+	height: 0.38rem;
+	border: 0.02rem ;
+	/* 点击时的轮廓 */
+	/* outline-color: red; */
+	position: absolute;
+	left: 0rem;
+	bottom: 0.03rem;
+	/* border: 0.01rem solid #000; */
+	background-color:#fff;
+	outline: none;
+}
+.back .cover .box .box1 .pic input{
+	width: 2.1rem;
+	height: 0.38rem;
+	border: 0.02rem ;
+	/* 点击时的轮廓 */
+	/* outline-color: red; */
+	position: absolute;
+	left: 0rem;
+	bottom: 0.03rem;
+	/* border: 0.01rem solid #000; */
+	background-color:#fff;
+	outline: none;
+}
